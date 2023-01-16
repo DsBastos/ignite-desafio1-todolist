@@ -31,6 +31,7 @@ export function Header({ onAddTask }: Props) {
           placeholder="Adicione uma nova tarefa"
           onChange={onChangeTitle}
           value={title}
+          required
         />
         <button type="submit">
           Criar
